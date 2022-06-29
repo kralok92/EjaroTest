@@ -1,0 +1,14 @@
+<resources>
+
+
+    <string name="app_name">ServiceVendor</string>
+    <string name="title_booking">Home</string>
+    <string name="title_service">Service</string>
+    <string name="title_profile">Profile</string>
+    <string name="Explore_Videos">Explore Videos by Expert Indian Yogi</string>
+    <string name="yoga_for">Yoga For Everyone - By Experts</string>
+    <string name="live_yoga">Live Yoga Class</string>
+    <string name="yoga_pose">Yoga Poses Video</string>
+    <string name="yoga_professnals">Yoga Professionals</string>
+
+</resources>
