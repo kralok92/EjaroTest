@@ -60,6 +60,7 @@ class SearchFragment : Fragment() {
 
         viewModel.fetchLivedata(mCtx)
         viewModel.liveData.observe(viewLifecycleOwner, Observer {
+            typeList.clear()
             val data = it as LiveClassDataItem.LiveData
             typeList.add(data)
             if (data.topInstructor?.size!! > 0) {
