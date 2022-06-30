@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_5dp"
+        android:outlineAmbientShadowColor="@color/colorRed"
+        android:outlineSpotShadowColor="@color/colorRed"
+        app:cardElevation="@dimen/padding_5dp">
+
+        <RelativeLayout
+            android:id="@+id/rlContainer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_170dp"
+            android:background="#e8e4e6"
+            android:padding="@dimen/padding_5dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/ivInstructor"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                app:riv_corner_radius="@dimen/padding_5dp"/>
+
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivInstructor"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="@dimen/padding_10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="#344a49"
+                android:textSize="@dimen/txt_14sp" />
+
+        </RelativeLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
